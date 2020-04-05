@@ -20,6 +20,63 @@
     <div class="container">
       <h3>Your random pokemon: {{ pokemon.name }}</h3>
       <img src="{{ pokemon.image }}" />
+        <table style="width:100%">
+
+          <tr>
+            <th>Descripción</th>
+            <th>Información</th>
+          </tr>
+
+          <tr>
+            <td> Orden: </td>
+            <td> {{pokemon.order}} </td>
+          </tr>
+
+          <tr>
+            <td> Estatura: </td>
+            <td> {{pokemon.height}}</td>
+          </tr>
+
+          <tr>
+            <td> Peso: </td>
+            <td> {{pokemon.weight}}</td>
+          </tr>
+
+          <tr>
+            <td> Experiencia Base: </td>
+            <td> {{pokemon.base_experience}}</td>
+          </tr>
+
+          <tr>
+            <td> Area: </td>
+            <td> {{pokemon.location_area_encounters}}</td>
+          </tr>
+
+          <tr>
+            <td> Especies: </td>
+            <td> {{pokemon.height}}</td>
+          </tr>
+
+          <tr>
+            <td> Default: </td>
+            <td> {{pokemon.is_default}}</td>
+          </tr>
+
+          <tr>
+            <td> Tipos: </td>
+            <td> {{pokemon.types}}</td>
+          </tr>
+
+          <tr>
+            <td> Habilidades: </td>
+            <td> {{pokemon.abilities}}</td>
+          </tr>
+
+           <tr>
+            <td> ID: </td>
+            <td> {{pokemon.id}}</td>
+          </tr>
+        </table>
     </div>
   </body>
 </html>
